@@ -1,4 +1,4 @@
-import { SET_POSTS } from './actions';
+import { SET_POSTS } from './redditFeedActions';
 
 const initialState = {
     posts: [],
