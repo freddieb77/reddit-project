@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { setPosts } from '../redux/actions';
-import fetchRedditPosts from '../utils/redditApi';
+import { setPosts } from '../../redux/redditFeedActions';
+import fetchRedditPosts from '../../utils/redditApi';
 
 const RedditFeed = () => {
     const dispatch = useDispatch();
