@@ -1,16 +1,3 @@
-# Project Name
-
-Codecademy Reddit Portfolio Project
-
-# Project Status
-
-This project is currently in development. I am building an application for Reddit using everything I have learned so far at Codecademy, including React and Redux. This website using the Reddit API will provide data that will be intergrated into the application. The application will allow users to view and search posts and commnents provided by the API.
-
-# Project Screen Shot(s)
-
-![Screeshot of an example Reddit site from Codecademy.](./public/images/example.png)
-![Wireframe of main desktop page.](./public/images/wireFrame.png)
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
