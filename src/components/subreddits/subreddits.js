@@ -2,13 +2,13 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Card from '../../components/Card/Card';
 import { fetchSubreddits, selectSubreddits } from '../../store/subRedditSlice';
-import './Subreddits.css';
+import './subreddits.css';
 import {
   setSelectedSubreddit,
   selectSelectedSubreddit,
 } from '../../store/redditSlice';
 
-const Subreddits = () => {
+const subreddits = () => {
   const dispatch = useDispatch();
   const subreddits = useSelector(selectSubreddits);
   const selectedSubreddit = useSelector(selectSelectedSubreddit);
@@ -50,4 +50,4 @@ const Subreddits = () => {
   );
 };
 
-export default Subreddits;
+export default subreddits;
